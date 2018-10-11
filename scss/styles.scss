@@ -1,0 +1,11 @@
+$color: red;
+$colorp: black;
+
+body {
+  background: $color;
+  p{
+    color: $colorp;
+    display: flex;
+    flex-direction: column;
+  }
+}
