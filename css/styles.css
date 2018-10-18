@@ -1,6 +1,96 @@
 body {
-  background: red; }
-  body p {
-    color: yellow;
-    display: flex;
-    flex-direction: column; }
+  background: grey; }
+  body #main {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px; }
+    body #main #banner {
+      height: 500px; }
+    body #main #nave {
+      text-align: center;
+      height: 60px;
+      background: black;
+      border: 2px solid #21CECD; }
+      body #main #nave nav {
+        align-items: center; }
+        body #main #nave nav ul li {
+          display: inline;
+          font-size: 25px;
+          padding: 0 30px 0 30px; }
+          body #main #nave nav ul li a {
+            text-decoration: none;
+            color: #21CECD;
+            font-weight: bold; }
+    body #main #features {
+      background: white;
+      padding: 15px; }
+      body #main #features h1 {
+        font-size: 30px;
+        color: #21CECD;
+        text-align: center; }
+      body #main #features #line {
+        padding: 15px;
+        align-items: center;
+        text-align: center; }
+        body #main #features #line #fitem {
+          width: 250px;
+          background: white;
+          margin: 20px;
+          display: inline-block; }
+          body #main #features #line #fitem h2 {
+            text-align: center; }
+          body #main #features #line #fitem p {
+            margin-top: -20px;
+            text-align: center; }
+    body #main #desc {
+      padding: 15px;
+      background: black;
+      border: 2px solid #21CECD; }
+      body #main #desc h1 {
+        text-align: center;
+        color: #21CECD;
+        font-size: 30px; }
+      body #main #desc p {
+        margin-top: 20px;
+        color: white;
+        text-align: center; }
+    body #main #affielies {
+      padding: 15px;
+      background: white;
+      height: 350px; }
+      body #main #affielies #line2 ul {
+        align-items: center;
+        text-align: center; }
+        body #main #affielies #line2 ul li {
+          display: inline-block;
+          margin: -30px 20px; }
+    body #main #contact {
+      padding: 15px;
+      background: black;
+      border: 2px solid #21CECD;
+      display: flex;
+      align-items: center; }
+      body #main #contact #cdiv {
+        margin-right: 20px; }
+        body #main #contact #cdiv h2 {
+          color: #21CECD; }
+        body #main #contact #cdiv p {
+          color: white;
+          text-align: justify; }
+        body #main #contact #cdiv button {
+          border: 3px solid #21CECD;
+          background-color: white;
+          float: right;
+          height: 30px;
+          width: 70px; }
+    body #main footer {
+      background-color: white;
+      height: 50px;
+      padding-right: 60px; }
+      body #main footer ul {
+        display: flex;
+        float: right; }
+        body #main footer ul li {
+          display: inline;
+          margin-top: -16px;
+          margin-right: 10px; }
